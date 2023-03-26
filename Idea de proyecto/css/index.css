@@ -23,7 +23,7 @@ h1{
          url('../fonts/cinzel-v19-latin-700.svg#Cinzel') format('svg'); /* Legacy iOS */
   }
   h2{
-    font-family: 'Cinzel', sans-serif ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 2em;
@@ -38,5 +38,4 @@ h1{
  margin: 4px 2px;
  cursor: pointer;
  border-radius: 15px;
-
 }
