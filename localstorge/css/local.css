@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(220, 220, 220);
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+button{
+    background-color: rgb(17, 255, 176);
+    border: none;
+    border-radius: 15px;
+}
+input{
+    border: solid black 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+
+}

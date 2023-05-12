@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+body{
+    background-color: rgb(186, 186, 255);
+    text-align: center;
+    justify-content: center;
+  
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(58, 58, 58);
+    font-size: 2.5em;
+}
+a, button{
+    background-color: rgb(21, 76, 255);
+    padding: 10px 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+input{
+    border: none;
+
+}
+span{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}

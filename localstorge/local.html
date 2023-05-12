@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="js/local.js"></script>
+    <link rel="stylesheet" href="css/local.css">
+    <style>
+    </style>
+</head>
+<body>
+    <center><h1>Ejemplo - LocalStorage</h1>
+    <input type="text" id="Nombre" placeholder="Nombre"><br><br>
+    <input type="text" id="Apellido" placeholder="Apellido"><br><br>
+    <input type="text" id="Correo" placeholder="Correo Electronico"><br><br>
+    <input type="date" id="Fecha" placeholder="Fecha de Nacimiento"><br><br>
+    
+    <button onclick="almacenarData()">Guardar</button>
+    <hr>
+    <p>Nombre Almacenado: <d id="datoNombre"></d> </p>
+    <p>Apellido Almacenado: <d id="datoApellido"></d> </p>
+    <p>Correo Almacenado: <d id="datoCorreo"></d> </p>
+    <p>Fecha Almacenada: <d id="datoFecha"></d> </p>
+  
+
+    <p>
+        <button onclick="cargarData()">Cargar Elementos</button>
+    </p></center>
+    <hr>
+</body>
+</html>
